@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABB00000000000000000042 /* ShortMiningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000019 /* ShortMiningApp.swift */; };
+		AABB00000000000000000043 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000020 /* Client.swift */; };
+		AABB00000000000000000044 /* ATOZEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000021 /* ATOZEmployee.swift */; };
+		AABB00000000000000000045 /* AdviceLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000022 /* AdviceLog.swift */; };
+		AABB00000000000000000046 /* AdviceLogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000023 /* AdviceLogLevel.swift */; };
+		AABB00000000000000000047 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000024 /* FirestoreService.swift */; };
+		AABB00000000000000000048 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000025 /* APIService.swift */; };
+		AABB00000000000000000049 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000026 /* AuthViewModel.swift */; };
+		AABB00000000000000000050 /* PortalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000027 /* PortalViewModel.swift */; };
+		AABB00000000000000000051 /* ClientListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000028 /* ClientListViewModel.swift */; };
+		AABB00000000000000000052 /* ATOZViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000029 /* ATOZViewModel.swift */; };
+		AABB00000000000000000053 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000030 /* LoginView.swift */; };
+		AABB00000000000000000054 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000031 /* RegisterView.swift */; };
+		AABB00000000000000000055 /* PortalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000032 /* PortalView.swift */; };
+		AABB00000000000000000056 /* AdviceLogRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000033 /* AdviceLogRowView.swift */; };
+		AABB00000000000000000057 /* ClientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000034 /* ClientListView.swift */; };
+		AABB00000000000000000058 /* ClientCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000035 /* ClientCardView.swift */; };
+		AABB00000000000000000059 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000036 /* StatusBarView.swift */; };
+		AABB00000000000000000060 /* WebViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000037 /* WebViewScreen.swift */; };
+		AABB00000000000000000061 /* ATOZClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000038 /* ATOZClientView.swift */; };
+		AABB00000000000000000062 /* ATOZEmployeeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000039 /* ATOZEmployeeCard.swift */; };
+		AABB00000000000000000063 /* ClientFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000040 /* ClientFormView.swift */; };
+		AABB00000000000000000064 /* CandidateFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000041 /* CandidateFormView.swift */; };
+		AABB00000000000000000065 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000016 /* GoogleService-Info.plist */; };
+		AABB00000000000000000066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000017 /* LaunchScreen.storyboard */; };
+		AABB00000000000000000067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABB00000000000000000018 /* Assets.xcassets */; };
+		AABB00000000000000000068 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00000000000000000071 /* FirebaseAuth */; };
+		AABB00000000000000000069 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AABB00000000000000000072 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AABB00000000000000000014 /* ShortMining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortMining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABB00000000000000000015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABB00000000000000000016 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AABB00000000000000000017 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AABB00000000000000000018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AABB00000000000000000019 /* ShortMiningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortMiningApp.swift; sourceTree = "<group>"; };
+		AABB00000000000000000020 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		AABB00000000000000000021 /* ATOZEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATOZEmployee.swift; sourceTree = "<group>"; };
+		AABB00000000000000000022 /* AdviceLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceLog.swift; sourceTree = "<group>"; };
+		AABB00000000000000000023 /* AdviceLogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceLogLevel.swift; sourceTree = "<group>"; };
+		AABB00000000000000000024 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		AABB00000000000000000025 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		AABB00000000000000000026 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		AABB00000000000000000027 /* PortalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalViewModel.swift; sourceTree = "<group>"; };
+		AABB00000000000000000028 /* ClientListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientListViewModel.swift; sourceTree = "<group>"; };
+		AABB00000000000000000029 /* ATOZViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATOZViewModel.swift; sourceTree = "<group>"; };
+		AABB00000000000000000030 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AABB00000000000000000031 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		AABB00000000000000000032 /* PortalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalView.swift; sourceTree = "<group>"; };
+		AABB00000000000000000033 /* AdviceLogRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceLogRowView.swift; sourceTree = "<group>"; };
+		AABB00000000000000000034 /* ClientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientListView.swift; sourceTree = "<group>"; };
+		AABB00000000000000000035 /* ClientCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCardView.swift; sourceTree = "<group>"; };
+		AABB00000000000000000036 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
+		AABB00000000000000000037 /* WebViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewScreen.swift; sourceTree = "<group>"; };
+		AABB00000000000000000038 /* ATOZClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATOZClientView.swift; sourceTree = "<group>"; };
+		AABB00000000000000000039 /* ATOZEmployeeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATOZEmployeeCard.swift; sourceTree = "<group>"; };
+		AABB00000000000000000040 /* ClientFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientFormView.swift; sourceTree = "<group>"; };
+		AABB00000000000000000041 /* CandidateFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateFormView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABB00000000000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABB00000000000000000068 /* FirebaseAuth in Frameworks */,
+				AABB00000000000000000069 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABB00000000000000000002 /* ShortMining */ = {
+			isa = PBXGroup;
+			children = (
+				AABB00000000000000000019 /* ShortMiningApp.swift */,
+				AABB00000000000000000015 /* Info.plist */,
+				AABB00000000000000000016 /* GoogleService-Info.plist */,
+				AABB00000000000000000017 /* LaunchScreen.storyboard */,
+				AABB00000000000000000018 /* Assets.xcassets */,
+				AABB00000000000000000073 /* Models */,
+				AABB00000000000000000074 /* Services */,
+				AABB00000000000000000075 /* ViewModels */,
+				AABB00000000000000000076 /* Views */,
+				AABB00000000000000000003 /* Products */,
+			);
+			name = ShortMining;
+			sourceTree = "<group>";
+		};
+		AABB00000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABB00000000000000000014 /* ShortMining.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABB00000000000000000073 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AABB00000000000000000020 /* Client.swift */,
+				AABB00000000000000000021 /* ATOZEmployee.swift */,
+				AABB00000000000000000022 /* AdviceLog.swift */,
+				AABB00000000000000000023 /* AdviceLogLevel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AABB00000000000000000074 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AABB00000000000000000024 /* FirestoreService.swift */,
+				AABB00000000000000000025 /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AABB00000000000000000075 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AABB00000000000000000026 /* AuthViewModel.swift */,
+				AABB00000000000000000027 /* PortalViewModel.swift */,
+				AABB00000000000000000028 /* ClientListViewModel.swift */,
+				AABB00000000000000000029 /* ATOZViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AABB00000000000000000076 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AABB00000000000000000077 /* Auth */,
+				AABB00000000000000000078 /* Portal */,
+				AABB00000000000000000079 /* Clients */,
+				AABB00000000000000000080 /* WebView */,
+				AABB00000000000000000081 /* ATOZ */,
+				AABB00000000000000000082 /* Forms */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AABB00000000000000000077 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AABB00000000000000000030 /* LoginView.swift */,
+				AABB00000000000000000031 /* RegisterView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		AABB00000000000000000078 /* Portal */ = {
+			isa = PBXGroup;
+			children = (
+				AABB00000000000000000032 /* PortalView.swift */,
+				AABB00000000000000000033 /* AdviceLogRowView.swift */,
+			);
+			path = Portal;
+			sourceTree = "<group>";
+		};
+		AABB00000000000000000079 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				AABB00000000000000000034 /* ClientListView.swift */,
+				AABB00000000000000000035 /* ClientCardView.swift */,
+				AABB00000000000000000036 /* StatusBarView.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		AABB00000000000000000080 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				AABB00000000000000000037 /* WebViewScreen.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		AABB00000000000000000081 /* ATOZ */ = {
+			isa = PBXGroup;
+			children = (
+				AABB00000000000000000038 /* ATOZClientView.swift */,
+				AABB00000000000000000039 /* ATOZEmployeeCard.swift */,
+			);
+			path = ATOZ;
+			sourceTree = "<group>";
+		};
+		AABB00000000000000000082 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				AABB00000000000000000040 /* ClientFormView.swift */,
+				AABB00000000000000000041 /* CandidateFormView.swift */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABB00000000000000000004 /* ShortMining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABB00000000000000000011 /* Build configuration list for PBXNativeTarget "ShortMining" */;
+			buildPhases = (
+				AABB00000000000000000005 /* Sources */,
+				AABB00000000000000000006 /* Resources */,
+				AABB00000000000000000007 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShortMining;
+			packageProductDependencies = (
+				AABB00000000000000000071 /* FirebaseAuth */,
+				AABB00000000000000000072 /* FirebaseFirestore */,
+			);
+			productName = ShortMining;
+			productReference = AABB00000000000000000014 /* ShortMining.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABB00000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AABB00000000000000000004 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AABB00000000000000000010 /* Build configuration list for PBXProject "ShortMining" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AABB00000000000000000002;
+			packageReferences = (
+				AABB00000000000000000070 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = AABB00000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABB00000000000000000004 /* ShortMining */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABB00000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABB00000000000000000065 /* GoogleService-Info.plist in Resources */,
+				AABB00000000000000000066 /* LaunchScreen.storyboard in Resources */,
+				AABB00000000000000000067 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABB00000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABB00000000000000000042 /* ShortMiningApp.swift in Sources */,
+				AABB00000000000000000043 /* Client.swift in Sources */,
+				AABB00000000000000000044 /* ATOZEmployee.swift in Sources */,
+				AABB00000000000000000045 /* AdviceLog.swift in Sources */,
+				AABB00000000000000000046 /* AdviceLogLevel.swift in Sources */,
+				AABB00000000000000000047 /* FirestoreService.swift in Sources */,
+				AABB00000000000000000048 /* APIService.swift in Sources */,
+				AABB00000000000000000049 /* AuthViewModel.swift in Sources */,
+				AABB00000000000000000050 /* PortalViewModel.swift in Sources */,
+				AABB00000000000000000051 /* ClientListViewModel.swift in Sources */,
+				AABB00000000000000000052 /* ATOZViewModel.swift in Sources */,
+				AABB00000000000000000053 /* LoginView.swift in Sources */,
+				AABB00000000000000000054 /* RegisterView.swift in Sources */,
+				AABB00000000000000000055 /* PortalView.swift in Sources */,
+				AABB00000000000000000056 /* AdviceLogRowView.swift in Sources */,
+				AABB00000000000000000057 /* ClientListView.swift in Sources */,
+				AABB00000000000000000058 /* ClientCardView.swift in Sources */,
+				AABB00000000000000000059 /* StatusBarView.swift in Sources */,
+				AABB00000000000000000060 /* WebViewScreen.swift in Sources */,
+				AABB00000000000000000061 /* ATOZClientView.swift in Sources */,
+				AABB00000000000000000062 /* ATOZEmployeeCard.swift in Sources */,
+				AABB00000000000000000063 /* ClientFormView.swift in Sources */,
+				AABB00000000000000000064 /* CandidateFormView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AABB00000000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AABB00000000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AABB00000000000000000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harry.shortmining";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AABB00000000000000000013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harry.shortmining";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABB00000000000000000010 /* Build configuration list for PBXProject "ShortMining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABB00000000000000000008 /* Debug */,
+				AABB00000000000000000009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABB00000000000000000011 /* Build configuration list for PBXNativeTarget "ShortMining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABB00000000000000000012 /* Debug */,
+				AABB00000000000000000013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AABB00000000000000000070 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AABB00000000000000000071 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AABB00000000000000000070 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AABB00000000000000000072 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AABB00000000000000000070 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+	};
+	rootObject = AABB00000000000000000001 /* Project object */;
+}
