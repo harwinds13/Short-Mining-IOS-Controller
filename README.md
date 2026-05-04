@@ -4,6 +4,17 @@ A native iOS app (SwiftUI) that mirrors the functionality of the [Short-Mining-A
 
 ---
 
+## 🚀 Setup
+
+1. Clone the repo
+2. Open `ShortMining.xcodeproj` in Xcode 15+
+3. Xcode will automatically resolve Firebase via SPM (requires internet)
+4. Replace `GoogleService-Info.plist` with the real one from Firebase Console → Project Settings → Your iOS app
+5. Set your signing team in project settings (Signing & Capabilities → Team)
+6. Build & Run
+
+---
+
 ## 🔥 Firebase Setup
 
 ### Step 1 — Create Firebase iOS App
@@ -19,19 +30,6 @@ Replace the placeholder `GoogleService-Info.plist` in the project root with the 
 In the Firebase Console, enable:
 - **Authentication** → Email/Password sign-in method
 - **Firestore Database** → Create database in production mode
-
----
-
-## 📦 Swift Package Manager Dependencies
-
-Open the project in Xcode, then:
-
-1. **File → Add Package Dependencies…**
-2. Enter URL: `https://github.com/firebase/firebase-ios-sdk`
-3. Choose **Up to Next Major Version** from the latest release
-4. Add these libraries:
-   - `FirebaseAuth`
-   - `FirebaseFirestore`
 
 ---
 
