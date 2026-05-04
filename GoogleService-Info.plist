@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!--
+  ⚠️  IMPORTANT: This is a PLACEHOLDER file.
+  Replace this entire file with the real GoogleService-Info.plist
+  downloaded from the Firebase Console for your iOS app
+  (Project Settings → Your iOS app → Download GoogleService-Info.plist).
+
+  Steps:
+  1. Go to https://console.firebase.google.com
+  2. Select the Short Mining project
+  3. Click the iOS app with bundle ID: com.harry.shortmining
+  4. Download GoogleService-Info.plist
+  5. Drag it into Xcode, replacing this file
+-->
+<dict>
+  <key>API_KEY</key>
+  <string>REPLACE_WITH_REAL_VALUE</string>
+  <key>BUNDLE_ID</key>
+  <string>com.harry.shortmining</string>
+  <key>CLIENT_ID</key>
+  <string>REPLACE_WITH_REAL_VALUE</string>
+  <key>DATABASE_URL</key>
+  <string>REPLACE_WITH_REAL_VALUE</string>
+  <key>GCM_SENDER_ID</key>
+  <string>REPLACE_WITH_REAL_VALUE</string>
+  <key>GOOGLE_APP_ID</key>
+  <string>REPLACE_WITH_REAL_VALUE</string>
+  <key>IS_ADS_ENABLED</key>
+  <false/>
+  <key>IS_ANALYTICS_ENABLED</key>
+  <false/>
+  <key>IS_APPINVITE_ENABLED</key>
+  <true/>
+  <key>IS_GCM_ENABLED</key>
+  <true/>
+  <key>IS_SIGNIN_ENABLED</key>
+  <true/>
+  <key>PROJECT_ID</key>
+  <string>REPLACE_WITH_REAL_VALUE</string>
+  <key>REVERSED_CLIENT_ID</key>
+  <string>REPLACE_WITH_REAL_VALUE</string>
+  <key>STORAGE_BUCKET</key>
+  <string>REPLACE_WITH_REAL_VALUE</string>
+</dict>
+</plist>
